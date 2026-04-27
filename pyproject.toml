@@ -1,0 +1,13 @@
+[project]
+name = "youtube-python-no-gil-fastapi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.7"
+dependencies = [
+    "fastapi>=0.136.1",
+    "httpx>=0.28.1",
+    "redis>=7.4.0",
+    "rq>=2.8.0",
+    "uvicorn[standard]>=0.46.0",
+]
